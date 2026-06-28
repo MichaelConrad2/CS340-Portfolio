@@ -1,1 +1,12 @@
-# CS340-Portfolio
+CS 340 Portfolio Reflection
+How do you write programs that are maintainable, readable, and adaptable?
+
+I write maintainable programs by organizing my code into reusable modules, using meaningful variable and function names, and adding comments where necessary to explain complex logic. During this course, the CRUD Python module I developed in Project One made it much easier to complete Project Two because it separated the database operations from the dashboard interface. Instead of rewriting database code for every feature, I was able to call the CRUD methods whenever data needed to be created, read, updated, or deleted. This approach reduced duplicate code, made debugging easier, and allowed me to update the database functionality in one place without affecting the rest of the application. In the future, I could reuse this CRUD module for other projects that require MongoDB or adapt it to work with different databases by modifying only the database connection layer.
+
+How do you approach a problem as a computer scientist?
+
+I approach problems by first understanding the requirements before writing any code. For the Grazioso Salvare dashboard project, I started by examining the database structure and determining what information the dashboard needed to display. I then broke the project into smaller tasks, such as connecting to the database, creating reusable CRUD operations, building the dashboard, and testing each feature individually. This differed from some previous programming assignments because it required integrating multiple technologies, including Python, MongoDB, and Dash, instead of focusing on a single program. In future projects, I will continue using this step-by-step approach while emphasizing planning, testing, and designing flexible database structures that can be easily expanded to meet changing client needs.
+
+What do computer scientists do, and why does it matter?
+
+Computer scientists develop software and systems that solve real-world problems by organizing, managing, and analyzing data efficiently. Their work helps organizations automate tasks, improve decision-making, and increase productivity. In this project, the dashboard allows Grazioso Salvare to quickly search, filter, and visualize information about rescue dogs without manually reviewing database records. This saves time, improves accuracy, and makes it easier for employees to identify animals that meet specific rescue training requirements. Projects like this demonstrate how computer science can create practical tools that help businesses operate more effectively and make better data-driven decisions.
